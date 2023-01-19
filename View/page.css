@@ -1,0 +1,132 @@
+          *{
+                margin: 0;
+                padding: 0;
+                color: white;
+            }
+            header{
+                background-color:dodgerblue;
+                display: flex;
+                justify-content: space-between;
+                height: 50px;
+                margin: 0;
+               
+            }
+            .titrepage {
+                position: relative;
+                color:white;
+                bottom: 2px;
+                right:  150px;
+                text-decoration: none;
+            }
+            .categories{
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                margin-right: 80px;
+                align-items: center;
+
+            }
+            img{
+                width: 40px;
+                height: 40px;
+                position: relative;
+                right:  150px;
+                
+            }
+            .div1{
+                display: flex;
+                justify-content:flex-start;
+                align-items: center;
+                justify-content:space-between;
+                margin-right:10px ;
+            }
+            p{
+                color: white;
+                font-family:sans-serif;
+            }
+            table {
+                  font-family: arial, sans-serif;
+                  border-collapse: collapse;
+                  width: 50%;
+                  margin-left:300px;
+                  margin-top: 60px;
+                }
+
+                td, th {
+                  border: 1px solid #dddddd;
+                  text-align: center;
+                  padding: 8px;
+                  color: dodgerblue;
+                }
+                footer{
+                    display: flex;
+                    align-items:center;
+                    justify-content: center;
+                    color: white;
+                    background-color: dodgerblue;
+                    height: 40px ;
+                    position:absolute;
+                    bottom:0;
+                    width:100%;
+                   height:50px; 
+                }
+
+                strong{
+                    color: white;
+                }
+                tr{
+                    color: dodgerblue;
+                    background-color:  white;
+                }
+                button{
+                    color: dodgerblue;
+                    background-color: dodgerblue;
+                    width: 70px;
+                    border-radius:5px;
+                    padding:2px;
+                    background-color:black;
+                }
+             tr th{
+                background-color:rgb(20,20,20);
+                padding:20px 0;
+
+            }
+            tr:not(:first-child){
+                padding:20px 0;
+
+            }
+            table{
+                width:60%;
+            }
+            a {
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                text-decoration: none;
+                text-align: center;
+                margin-left: 150px;
+            }
+
+            .container{
+                display:flex;
+                justify-content:center;
+                flex-direction:column;
+                align-items: center;
+                
+            }
+            .container:hover{
+                border-color: dodgerblue ;
+            }
+            h3{ 
+               color:dodgerblue;
+            }
+            p{
+                color:black;
+            }
+            h3,p{
+                margin-top:30px;
+            }
+
+     
+
+                
